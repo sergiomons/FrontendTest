@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test Frontend Marfeel</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="components/user-info/main.css">
+    <link rel="stylesheet" href="components/user-repos/main.css">
+    <link rel="stylesheet" href="components/not-found/main.css">
 </head>
 <body>
     <main>
-        <section class="cover-form">
+        <div class="main-container">
+
             <form id="user-search">
                 <input type="text" id="input-username" class="search-username" placeholder="Search username..." autofocus>
                 <input type="submit" class="button-search" value="Search">
             </form>
-        </section>
 
-        <div id="user-information">
-            <section class="user-info">
+            <section id="user-info">
             </section>
 
-            <section class="user-repos">
+            <section id="user-repos">
+            </section>
+
+            <section id="user-notFound">
             </section>
         </div>
 
-        <section id="user-notFound">
-        </section>
     </main> 
+    
     <script src="api-client/api-github.js"></script>
     <script src="logic/index.js"></script>
+    <script src="components/not-found/index.js"></script>
+    <script src="components/user-info/index.js"></script>
+    <script src="components/user-repos/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+#user-repos > p {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: -8px;
+    padding-bottom: 7px;
+}
+
+#right-count {
+    display: flex;
+    float: right;
+    height: 20px;
+    margin-top: 8px;
+}
+
+li {
+    list-style: none;
+    display:flex;
+    min-height: 50px;
+    margin-top: -6px;
+    border-bottom: 2px solid #d4d0d0;
+
+}
+
+#right-count > img {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    
+}
+
+#right-count > span {
+    padding: 14px 0 0 0;
+    margin-left: -10px;
+    font-size: 0.9rem;
+}
+
+.title-repo {
+    width: 280px;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+
+#list-repo {
+    margin-top: -30px;
+}

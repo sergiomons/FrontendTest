@@ -1,0 +1,11 @@
+#not-found-content {
+    width: 92%;
+    height: auto;
+    background-color: rgb(248, 228, 228);
+    color:rgb(155, 94, 94);
+    font-weight: bold;
+    border: 1px solid rgb(202, 174, 174);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-left: 10px;
+}

@@ -1,13 +1,6 @@
-describe('Test logic Github Api', () => {
+describe('Test Github Api', () => {
     const username = 'sergiomons';
     const fakeUsername = '.....A56B45'
-    // let originalTimeout
-
-    // beforeEach(done => {
-    //     originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL
-    //     jasmine.DEFAULT_TIMEOUT_INTERVAL = 300;
-    //     done()
-    // })
 
     describe('Testing retrieve user info', () => {
         it('should retrieve on correct data', done => {
@@ -126,10 +119,4 @@ describe('Test logic Github Api', () => {
                 .catch(done)
         })
     })
-
-
-    // afterEach(done => {
-    //     jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout
-    //     done()
-    // })
 })

@@ -1,0 +1,28 @@
+.info-content{
+    width: 100%;
+    height: auto;
+    line-height: 0.3;
+    padding-top: 2px;
+}
+
+img{
+    float:left;
+    margin: 10px 10px 0 0;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4px; 
+}
+
+.username {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.bio {
+    line-height: 1;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
