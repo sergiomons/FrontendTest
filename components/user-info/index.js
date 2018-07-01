@@ -2,7 +2,7 @@
 userInfo = (userData) => {
 
     const userInformation = document.getElementById('user-info');
-    const notFound = document.getElementById('user-notFound')
+    const notFound = document.getElementById('user-notFound');
 
     notFound.style = 'display: none';
     userInformation.style = 'display: flex';

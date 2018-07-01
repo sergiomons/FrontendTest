@@ -2,8 +2,8 @@
 
  notFoundResults = () => {
 
-    const notFound = document.getElementById('user-notFound')
-    const userInformation = document.getElementById('user-info')
+    const notFound = document.getElementById('user-notFound');
+    const userInformation = document.getElementById('user-info');
     const userRepositories = document.getElementById('user-repos');
 
     userInformation.style = 'display: none';

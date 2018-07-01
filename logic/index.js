@@ -8,24 +8,24 @@
     userSearch.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const username = document.getElementById('input-username').value
+        const username = document.getElementById('input-username').value;
 
         // Api call in order to retrieve the information of the user.
         githubUserApi.retrieveUserInfo(username)
             .then(userData => {
                 
                 if (userData.message !== 'Not Found')  
-                    userInfo(userData)   
+                    userInfo(userData);
 
                 else {
-                    notFoundResults()
+                    notFoundResults();
                 }          
             })
-            .catch(err => err)  
+            .catch(err => err);  
 
         // Api call in order to retrieve the repositories of the user
         githubUserApi.retrieveUserRepos(username)
             .then(repositories => userRepos(repositories))
-            .catch(err => err)
+            .catch(err => err);
     })
 

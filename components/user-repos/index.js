@@ -3,7 +3,7 @@ userRepos = (repositories) => {
 
     const userRepositories = document.getElementById('user-repos');
 
-    userRepositories.style = 'display:block'
+    userRepositories.style = 'display:block';
     
     // List of the repositories to show.
     const repoList = repositories.map(repository => {
